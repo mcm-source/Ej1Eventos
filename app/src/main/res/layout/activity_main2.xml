@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voy a contar tus clicks">
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/btnPulsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:onClick="onClickBtn"
+        android:text="Pulsa" />
+
+    <Button
+        android:id="@+id/btnFinalizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:onClick="onClickBtnFinalizar"
+        android:text="Finalizar" />
+
+
+    <TextView
+        android:id="@+id/tv_respuesta"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
